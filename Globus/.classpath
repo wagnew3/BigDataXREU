@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="libraries/gs-algo-1.2/gs-algo-1.2.jar" sourcepath="libraries/gs-algo-1.2/gs-algo-1.2-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/Globus/libraries/gs-algo-1.2/gs-algo-1.2-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="libraries/gs-core-1.2/gs-core-1.2.jar" sourcepath="libraries/gs-core-1.2/gs-core-1.2-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/Globus/libraries/gs-core-1.2/gs-core-1.2-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="libraries/gs-ui-1.2/gs-ui-1.2.jar" sourcepath="libraries/gs-ui-1.2/gs-ui-1.2-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/Globus/libraries/gs-ui-1.2/gs-ui-1.2-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry combineaccessrules="false" kind="src" path="/mlGPU"/>
+	<classpathentry kind="lib" path="libraries/commons-math3-3.6.1/commons-math3-3.6.1.jar" sourcepath="libraries/commons-math3-3.6.1/commons-math3-3.6.1-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/Globus/libraries/commons-math3-3.6.1/commons-math3-3.6.1-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

@@ -1,0 +1,59 @@
+node {
+	fill-mode: dyn-plain;
+	fill-color: #a3a3c2, #d27979;
+	size-mode: dyn-size;
+	stroke-mode: plain; 
+	stroke-color: #000000;
+	text-size: 10;
+	text-style: bold;
+	text-mode: hidden;
+	visibility-mode: under-zoom;
+	z-index: 11;
+	shadow-mode: gradient-radial; shadow-width: 2px; shadow-color: #808080, #f2f2f2; shadow-offset: 3px, -3px;
+}
+
+node.clicked {
+	fill-mode: dyn-plain;
+	fill-color: #a3a3c2, #d27979;
+	size-mode: dyn-size;
+	stroke-mode: plain; 
+	stroke-color: #000000;
+	text-size: 10;
+	text-style: bold;
+	text-mode: normal;
+	visibility-mode: under-zoom;
+	z-index: 12;
+	shadow-mode: gradient-radial; shadow-width: 2px; shadow-color: #808080, #f2f2f2; shadow-offset: 3px, -3px;
+}
+
+node.adjClicked {
+	fill-mode: dyn-plain;
+	fill-color: #0000ff, #ff0000;
+	size-mode: dyn-size;
+	stroke-mode: plain; 
+	stroke-color: #000000;
+	text-size: 10;
+	text-style: bold;
+	text-mode: normal;
+	z-index: 11;
+	shadow-mode: gradient-radial; shadow-width: 2px; shadow-color: #808080, #f2f2f2; shadow-offset: 3px, -3px;
+}
+
+edge.norm {
+	shape: line;
+	fill-mode: plain;
+	fill-color: #d9d9d9;
+	arrow-size: 3px, 2px;
+	z-index: 0;
+	size-mode: dyn-size;
+	visibility-mode: under-zoom;
+}
+
+edge.clicked {
+	shape: line;
+	fill-mode: plain;
+	fill-color: #808080;
+	arrow-size: 3px, 2px;
+	z-index: 1;
+	size-mode: dyn-size;
+}

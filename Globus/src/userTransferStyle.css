@@ -1,0 +1,58 @@
+node {
+	/*fill-mode: dyn-plain;
+	fill-color: #4d4d4d, #4d4dff;*/
+	fill-mode: plain;
+	fill-color: #4d4dff;
+	size-mode: dyn-size;
+	stroke-mode: plain; 
+	stroke-color: #000000;
+	text-size: 10;
+	text-style: bold;
+	text-mode: hidden;
+	visibility-mode: under-zoom;
+	z-index: 11;
+}
+
+node.clicked {
+	fill-mode: dyn-plain;
+	fill-color: #4d4d4d, #4d4dff;
+	size-mode: dyn-size;
+	stroke-mode: plain; 
+	stroke-color: #000000;
+	text-size: 10;
+	text-style: bold;
+	text-mode: normal;
+	visibility-mode: under-zoom;
+	z-index: 12;
+}
+
+node.adjClicked {
+	fill-mode: dyn-plain;
+	fill-color: #0000ff, #ff0000;
+	size-mode: dyn-size;
+	stroke-mode: plain; 
+	stroke-color: #000000;
+	text-size: 10;
+	text-style: bold;
+	text-mode: normal;
+	z-index: 11;
+}
+
+edge.norm {
+	shape: line;
+	fill-mode: dyn-plain;
+	fill-color: #ffffff, #000000;
+	arrow-size: 3px, 2px;
+	z-index: 0;
+	size-mode: dyn-size;
+	visibility-mode: under-zoom;
+}
+
+edge.clicked {
+	shape: line;
+	fill-mode: plain;
+	fill-color: #808080;
+	arrow-size: 3px, 2px;
+	z-index: 1;
+	size-mode: dyn-size;
+}
